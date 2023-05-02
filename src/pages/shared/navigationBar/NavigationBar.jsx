@@ -27,7 +27,7 @@ const NavigationBar = () => {
                             {user ?
                                 <Button variant="secondary">Log out</Button>
                                 :
-                                <Link to={'login'}><Button variant="secondary" >Log in</Button>  </Link>
+                                <Link to={'/login'}><Button variant="secondary" >Log in</Button>  </Link>
                             }
                         </Nav>
                     </Navbar.Collapse>
