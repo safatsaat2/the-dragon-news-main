@@ -10,7 +10,7 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" name='email' placeholder="Enter email" />
-                    
+
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -23,14 +23,14 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                    <br />
+                <br />
                 <Form.Text>
-                Don't have an account? <Link to={'/register'} className="text-danger">Register</Link>
+                    Don't have an account? <Link to={'/register'} className="text-danger">Register</Link>
                 </Form.Text>
                 <Form.Text className="text-danger">
-                    </Form.Text>
+                </Form.Text>
                 <Form.Text className="text-success">
-                    </Form.Text>
+                </Form.Text>
             </Form>
         </Container>
     );
